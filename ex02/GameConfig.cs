@@ -182,8 +182,9 @@ namespace ex02
             }
 
         }
+        
+        private static void chooseARandomMove(List<Move> moves, out Move o_currentMove) 
 
-        private static void chooseARandomMove(List<Move> moves, out Move o_currentMove)
         {
             int moveNumber;
 
